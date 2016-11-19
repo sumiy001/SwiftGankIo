@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="ANDROID">0</integer>
+    <integer name="FULI">1</integer>
+    <integer name="VIDEO">2</integer>
+    <integer name="iOS">3</integer>
+    <integer name="QIANDUAN">4</integer>
+    <integer name="EXPAND">5</integer>
+    <integer name="XIATUIJIAN">6</integer>
+</resources>

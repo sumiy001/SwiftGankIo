@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.rdc.sumiy.swiftgankio.widget.CategoryTabStrip xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/categoryTabStrip"
+    android:layout_below="@id/title"
+    android:layout_width="wrap_content"
+    android:layout_height="46dp"
+    android:scrollbars="none"
+    android:background="@color/brown"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <com.rdc.sumiy.swiftgankio.widget.NaviBarTextView
+            android:id="@+id/navi_tv_android"
+            style="@style/NaviBarTextView"
+            android:text="Android"
+            app:navibar_position="@integer/ANDROID" />
+
+        <com.rdc.sumiy.swiftgankio.widget.NaviBarTextView
+            android:id="@+id/navi_tv_fuli"
+            style="@style/NaviBarTextView"
+            android:text="福利"
+            app:navibar_position="@integer/FULI" />
+
+        <com.rdc.sumiy.swiftgankio.widget.NaviBarTextView
+            android:id="@+id/navi_tv_video"
+            style="@style/NaviBarTextView"
+            android:text="休息视频"
+            app:navibar_position="@integer/VIDEO" />
+
+        <com.rdc.sumiy.swiftgankio.widget.NaviBarTextView
+            android:id="@+id/navi_tv_ios"
+            style="@style/NaviBarTextView"
+            android:text="iOS"
+            app:navibar_position="@integer/iOS" />
+
+        <com.rdc.sumiy.swiftgankio.widget.NaviBarTextView
+            android:id="@+id/navi_tv_quanduan"
+            style="@style/NaviBarTextView"
+            android:text="前端"
+            app:navibar_position="@integer/QIANDUAN" />
+
+        <com.rdc.sumiy.swiftgankio.widget.NaviBarTextView
+            android:id="@+id/navi_tv_expand"
+            style="@style/NaviBarTextView"
+            android:text="拓展资源"
+            app:navibar_position="@integer/EXPAND" />
+
+        <com.rdc.sumiy.swiftgankio.widget.NaviBarTextView
+            android:id="@+id/navi_tv_xia"
+            style="@style/NaviBarTextView"
+            android:text="瞎推荐"
+            app:navibar_position="@integer/XIATUIJIAN" />
+    </LinearLayout>
+</com.rdc.sumiy.swiftgankio.widget.CategoryTabStrip>

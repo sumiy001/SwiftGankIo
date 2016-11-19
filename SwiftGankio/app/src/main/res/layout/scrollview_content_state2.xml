@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <com.rdc.sumiy.swiftgankio.widget.ObservableScroll
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <include layout="@layout/line_state_refresh"/>
+            <ImageView
+                android:id="@+id/fuli_state2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scaleType="fitXY" />
+            <include layout="@layout/merge_state2_content"/>
+
+        </LinearLayout>
+    </com.rdc.sumiy.swiftgankio.widget.ObservableScroll>
+</LinearLayout>
